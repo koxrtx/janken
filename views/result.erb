@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<head>
+<title>結果</title>
+</head> 
+<body>
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: center;gap: 40px; height: 50vh; font-size: 24px;">
+<h1>じゃんけん結果発表</h1>
+
+<div style="display: flex; align-items: center;gap: 10px; height: 15vh;font-size: 20px;"> 
+<h2><p>あなたの手: <%= @hand %></p>
+    <p>コンピューターの手: <%=@computer_hand %></p>
+    <p>結果: <%= @result %></p>
+    </h2>
+<div style="display: flex; flex-direction: column; justify-content: flex-end; align-items: center; height: 50vh;t transform: translateX(-20px)">
+<form action="/" method="get">
+  <button type="submit">最初に戻る</button>
+
+
+
+
+  </body>
