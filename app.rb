@@ -5,8 +5,6 @@ get "/" do
   erb :index
 end
 
-#設計図（メゾットの定義）
-
 def show_message
   <<~TEXT
     <div style="text-align: center;">
@@ -38,8 +36,6 @@ def judge_result(hand, computer_hand)
     "負け"
   end
 end
-
-#実行する流れ
 
 show_message
 
