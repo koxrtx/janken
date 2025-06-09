@@ -49,8 +49,8 @@ get "/result" do
   session[:win_streak] ||= 0
   if @result == "勝ち"
     session[:win_streak] += 1
-    else
-      session[:win_streak] = 0
+  else
+    session[:win_streak] = 0
   end
 
   #ランダム画像
